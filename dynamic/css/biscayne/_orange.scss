@@ -1,0 +1,287 @@
+body {
+  background-color: #4F5356;
+  background: url('../img/10.jpg') repeat-x center top #4F5356;
+}
+
+#wrap {
+  background-color: #F9F9F9;
+  border-top: 4px solid #F55D2D;
+}
+
+#contact_button a {
+  display: block;
+  background: url('../img/feedback-button.png');
+  background-position: 0 0;
+  width: 34px;
+  height: 123px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+#contact_button a:hover {
+  background: url('../img/feedback-button.png');
+  background-position: -39px 0;
+  width: 34px;
+  height: 123px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #F55D2D;
+}
+
+a {
+  color: #F55D2D;
+}
+
+a:hover {
+  color: #4F5356;
+}
+
+#footer a:hover {
+  background: #F55D2D;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+ul.filter_portfolio li.active a {
+  color: #f8f8f8;
+  background: #4F5356;
+  text-decoration: none;
+}
+
+.thumbs li img:hover {
+  border: 4px solid #F55D2D;
+}
+
+#footer {
+  background-color: #414B52;
+  background-image: url('../img/pattern1.jpg');
+  border-top: 4px solid #333;
+}
+
+#footer {
+  color: #f8f8f8;
+}
+
+#footer h5 {
+  color: #F55D2D;
+}
+
+#sub_footer {
+  color: #f8f8f8;
+}
+
+.highlight1 {
+  background: #F55D2D;
+}
+
+.highlight1 {
+  color: #fff;
+}
+
+.dropcap2 {
+  background: #333;
+  color: #fff;
+}
+
+.dropcap1 {
+  color: #F55D2D;
+}
+
+blockquote.style2 {
+  color: #f8f8f8;
+}
+
+table th {
+  background: #fff;
+  color: #333;
+}
+
+table tfoot {
+  background: #fff;
+}
+
+.gray_box {
+  background: #333;
+  color: #fff;
+}
+
+ul.tabs li {
+  background: #F7F7F7;
+}
+
+ul.tabs li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+  background: #F55D2D;
+  color: #fff !important;
+}
+
+.panes {
+  background: #fff;
+}
+
+#accordion {
+  background: #fff;
+}
+
+#accordion h3 {
+  background: #F7F7F7;
+  color: #333;
+}
+
+#accordion h3:hover {
+  background-color: #fff;
+}
+
+#accordion h3.current {
+  background-color: #F55D2D;
+  color: #fff;
+}
+
+#accordion-slider li {
+  border-left: 1px solid #F55D2D;
+}
+
+/*#intro {*/
+  /*border-left: 1px dashed #F55D2D;*/
+  /*border-right: 1px dashed #F55D2D;*/
+/*}*/
+
+/*#highlight_bottom {*/
+  /*border-left: 1px dashed #F55D2D;*/
+  /*border-right: 1px dashed #F55D2D;*/
+/*}*/
+
+/*.entry-meta {*/
+  /*border-top: 1px dashed #F55D2D;*/
+  /*border-left: 1px dashed #F55D2D;*/
+/*}*/
+
+ul.filter_portfolio li a:hover {
+  background: #F55D2D;
+}
+
+.slider-frame {
+  background-color: #F55D2D;
+}
+
+.frame:hover {
+  background: #F55D2D;
+  border: 1px solid #F55D2D;
+}
+
+.frame:hover h5 {
+  color: #F55D2D;
+}
+
+.btn:hover {
+  background-color: #F55D2D;
+}
+
+.theme_color {
+  color: #F55D2D;
+}
+
+.error404 {
+  border: 1px dashed #F55D2D;
+}
+
+.blog h3 {
+  border-bottom: 1px dashed #F55D2D;
+}
+
+.service h3 {
+  border-bottom: 1px dashed #F55D2D;
+}
+
+.fancy_box h4 {
+  color: #F55D2D;
+}
+
+.sf-menu .current a {
+  color: #F55D2D;
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+  border-top: #F55D2D 1px solid;
+}
+
+.sf-menu a:hover {
+  color: #F55D2D;
+  background-color: none;
+}
+
+.sf-menu li li a:hover {
+  background-color: #F55D2D;
+  color: #f8f8f8;
+}
+
+.sf-menu li li.sfHover {
+  background-color: #F55D2D;
+}
+
+.sf-menu a:focus, .sf-menu a:active {
+  color: #F55D2D;
+}
+
+input.button {
+  background-color: #568929;
+}
+
+.valmsg {
+  color: #ff0000;
+}
+
+blockquote.style1 {
+  color: #000;
+}
+
+blockquote.style2 {
+  background-color: #F55D2D;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.error404 h1 {
+  color: #333;
+}
+
+/* Contact Form */
+input#name:focus, input#email:focus, input#q:focus {
+  border: 1px solid #F55D2D;
+}
+
+textarea:focus {
+  border: 1px solid #F55D2D;
+}
+
+#intro #s:focus {
+  border: 1px solid #F55D2D;
+}
+
+.fancyinput {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.fancyinputarea {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.search {
+  color: #333 !important;
+}
+
+#wowslider-container1 .ws-title {
+  background: #F55D2D;
+}

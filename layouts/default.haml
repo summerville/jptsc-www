@@ -24,8 +24,48 @@
 
 %body
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  #container
-    = yield
+  .space_top
+  #wrap.clearfix
+    %header#header.clearfix
+      #logo.grid_8
+        %a{href: '/'}
+      #phone
+        %ul
+          %li.theme_color Call us:
+          %li (123) 456-7777
+      #socialmedia
+        %ul
+          <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
+          <li><a href="https://twitter.com/#!/UnitedThemes" target="_blank"><img src="img/icons/twitter-icon.png" width="29" height="29" alt="Twitter"></a></li>
+          <li><a href="http://www.facebook.com/pages/United-Themes/192439650789254" target="_blank"><img src="img/icons/facebook-icon.png" width="29" height="29" alt="Facebook"></a></li>
+      .clear
+
+      #nav.clearfix.top
+        %ul.sf-menu.container
+          <li><a href="index.html">Default Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Our Service</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+
+    .container
+      = yield
+
+    %footer#footer
+      .container
+        .row
+          .span4
+            Test
+
+          .span4
+            Test
+
+          .span4
+            Test
+
+      #sub_footer
+        .container
+          Test
 
   = render_partial 'javascripts'
   = content_for(:javascript)
