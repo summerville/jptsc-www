@@ -42,9 +42,15 @@ hr.img {
   }
 }
 
-ul.sidebar-comment li {
-  padding-top: $baseLineHeight;
+ul.tweet_list {
+  @extend ul.unstyled;
+
+  li {
+    margin-bottom: $baseLineHeight / 2;
+  }
 }
+
+ul.sidebar-comment li { padding-top: $baseLineHeight; }
 
 /* Tweak the btn-primary gradient */
 .btn-primary {
