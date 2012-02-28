@@ -1,7 +1,33 @@
-%section#intro
-  %h1= lorem.sentence
+#home-carousel.carousel
+  .carousel-inner
+    .item.active
+      %img{src: '/img/slider/wow-slider/images/slide1.jpg', alt: ''}
+      .carousel-caption
+        %h4= lorem.sentence
+        %p= lorem.sentences(4)
+    .item
+      %img{src: '/img/slider/wow-slider/images/slide2.jpg', alt: ''}
+      .carousel-caption
+        %h4= lorem.sentence
+        %p= lorem.sentences(4)
+  %a{href: '#home-carousel', class: 'carousel-control left', data: {slide: 'prev'}} &lsaquo;
+  %a{href: '#home-carousel', class: 'carousel-control right', data: {slide: 'next'}} &rsaquo;
 
-%p= lorem.sentence
-%p= lorem.sentence
-%p= lorem.sentence
-%p= lorem.sentence
+.container
+  %section#intro
+    %h1
+      We help #{lorem.words(8)}
+
+  %p= lorem.sentence
+  %p= lorem.sentence
+  %p= lorem.sentence
+  %p= lorem.sentence
+
+
+- content_for :javascript do
+  :javascript
+    $(document).ready(function() {
+      $('#home-carousel').carousel({
+        interval: 4000
+      });
+    });

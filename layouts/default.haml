@@ -32,7 +32,7 @@
       #phone
         %ul
           %li.theme_color Call us:
-          %li (123) 456-7777
+          %li (205) 329-8182
       #socialmedia
         %ul
           <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
@@ -42,14 +42,15 @@
 
       #nav.clearfix.top
         %ul.sf-menu.container
-          <li><a href="index.html">Default Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="service.html">Our Service</a></li>
-          <li><a href="team.html">Our Team</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Staff</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Mission Statement</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Links</a></li>
 
-    .container
-      = yield
+    = yield
 
     %footer#footer
       .container
@@ -65,7 +66,15 @@
 
       #sub_footer
         .container
-          Test
+          .row
+            .span6
+              %p
+                &copy; #{Date.today.year} JP Transportation Safety Consulting, LLC.
+                All rights reserved.
+              %p
+                Made by <a href="http://www.rarestep.com">RareStep</a>.
+            .span6.ar
+              <span><a class="button" href="#top">Top &uarr;</a></span>
 
   = render_partial 'javascripts'
   = content_for(:javascript)
