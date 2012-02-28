@@ -1,33 +1,67 @@
 #home-carousel.carousel
   .carousel-inner
     .item.active
-      %img{src: '/img/slider/wow-slider/images/slide1.jpg', alt: ''}
+      %img{src: '/img/carousel/temp-1.png', alt: 'Temp #1', width: '980', height: '538'}
       .carousel-caption
         %h4= lorem.sentence
         %p= lorem.sentences(4)
     .item
-      %img{src: '/img/slider/wow-slider/images/slide2.jpg', alt: ''}
+      %img{src: '/img/slider/wow-slider/images/slide2.jpg', alt: '',  width: '980', height: '450'}
       .carousel-caption
         %h4= lorem.sentence
         %p= lorem.sentences(4)
+    .item
+      %img{src: '/img/slider/wow-slider/images/slide3.jpg', alt: '',  width: '980', height: '450'}
+      .carousel-caption
+        %h4= lorem.sentence
+        %p= lorem.sentences(2)
   %a{href: '#home-carousel', class: 'carousel-control left', data: {slide: 'prev'}} &lsaquo;
   %a{href: '#home-carousel', class: 'carousel-control right', data: {slide: 'next'}} &rsaquo;
 
 .container
   %section#intro
     %h1
-      We help #{lorem.words(8)}
+      One sentence that explains why JPTSC is <span class="theme_color">awesome</span>.
 
-  %p= lorem.sentence
-  %p= lorem.sentence
-  %p= lorem.sentence
-  %p= lorem.sentence
+  .row
+    .span7
+      %p
+        %strong
+          Why should the visitor care about JPTSC in five sentences or less?
+        = lorem.sentences(4)
+      %h4 Really important bullet points.
+      .row
+        .span3
+          %ul
+            %li Mock D.O.T. audits
+            %li D.O.T. audit assistance
+            %li= lorem.words(4).capitalize
+            %li= lorem.words(3).capitalize
+        .span3
+          %ul
+            %li= lorem.words(3).capitalize
+            %li= lorem.words(2).capitalize
+            %li= lorem.words(4).capitalize
+            %li= lorem.words(4).capitalize
+      %p
+        %a{href: '#', class: 'btn btn-large btn-primary'} Learn more
+    .span5
+      %ul.sidebar-comment
+        %li
+          %blockquote
+            %p= lorem.sentences(2)
+            %small= lorem.name
+        %li
+          %blockquote
+            %p= lorem.sentences(3)
+            %small= lorem.name
+
 
 
 - content_for :javascript do
   :javascript
     $(document).ready(function() {
       $('#home-carousel').carousel({
-        interval: 4000
+        interval: 10000
       });
     });

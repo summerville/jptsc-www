@@ -56,10 +56,23 @@
       .container
         .row
           .span4
-            Test
+            %h5 Contact Us
+            %address
+              %strong
+                JP Transportation Safety Consulting, LLC.
+              %br
+              P.O. Box 382105
+              %br
+              Birmingham, AL 35238-2105
+
+            %h6 Call Us
+            %ul.unstyled
+              %li (205) 329-8182
+              %li (205) 329-8183
 
           .span4
-            Test
+            %h5 Twitter
+            %ul.tweet
 
           .span4
             Test
@@ -75,6 +88,7 @@
                 Made by <a href="http://www.rarestep.com">RareStep</a>.
             .span6.ar
               <span><a class="button" href="#top">Top &uarr;</a></span>
+  .space_bottom
 
   = render_partial 'javascripts'
   = content_for(:javascript)

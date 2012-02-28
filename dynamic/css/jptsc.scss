@@ -1,16 +1,52 @@
+$linkColor: #F55D2D;
+$linkColorHover: #4F5356;
+$baseFontSize: 14px;
+$baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif ! default;
+$baseLineHeight: 20px;
+
 @import "bootstrap";
 @import "biscayne/biscayne";
 
-// Floating & Alignment
-.fl { float: left; }
-.fr { float: right; }
-.ac { text-align: center; }
-.ar { text-align: right; }
+body {
+  .fl { float: left; }
+  .fr { float: right; }
+  .ac { text-align: center; }
+  .ar { text-align: right; }
+}
+
+hr.img {
+  clear: both;
+  height: 7px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: url('../img/hr.png') repeat-x 0 0;
+}
 
 #intro {
   margin-bottom: $baseLineHeight;
+
+  h1, h2 {
+    text-transform: none;
+    letter-spacing: -1px;
+  }
 }
 
 #footer {
   margin-top: $baseLineHeight;
+  font-size: $baseFontSize - 1;
+
+  #sub_footer {
+    p {
+      font-size: $baseFontSize - 2;
+    }
+  }
+}
+
+ul.sidebar-comment li {
+  padding-top: $baseLineHeight;
+}
+
+/* Tweak the btn-primary gradient */
+.btn-primary {
+  @include buttonBackground($primaryButtonBackground, adjust-hue($primaryButtonBackground, 12));
 }

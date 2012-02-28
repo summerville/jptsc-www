@@ -310,9 +310,9 @@ G) Contact Form & Search Form
   letter-spacing: 1px;
 }
 
-#highlight_bottom .btn {
+/*#highlight_bottom .btn {
   margin: 0 !important;
-}
+}*/
 
 #socialmedia {
   position: absolute;
@@ -411,7 +411,7 @@ ul.sidebar-archive {
   border-bottom: 1px dashed #4F5356;
 }
 
-#footer p {
+/*#footer p {
   margin-top: 20px;
 }
 
@@ -423,7 +423,7 @@ ul.sidebar-archive {
 #footer ul li {
   margin-top: 10px;
   display: block;
-}
+}*/
 
 #footer span a {
   padding: 0 1px;
@@ -464,7 +464,8 @@ ul.sidebar-archive {
   6. Lists
 -------------------------------------------
 */
-ul li, ol li {
+
+/*ul li, ol li {
   margin-top: 10px;
 }
 
@@ -472,7 +473,7 @@ ul, ol {
   display: block;
   margin: 10px 0 0 0;
   list-style-position: inside;
-}
+}*/
 
 ul.check, ul.uncheck {
   display: block;
@@ -695,6 +696,7 @@ ul.portfolio li {
   transition: all 0.4s ease-in-out;
 }
 
+/*
 .btn.red, .btn.red:hover, .btn.orange, .btn.orange:hover, .btn.green, .btn.green:hover, .btn.purple, .btn.purple:hover, .btn.blue, .btn.blue:hover {
   color: #f8f8f8;
 }
@@ -752,6 +754,7 @@ ul.portfolio li {
   color: #f8f8f8;
   text-decoration: none;
 }
+*/
 
 .zoom {
   display: block;
@@ -907,9 +910,9 @@ table tfoot {
   text-align: center;
 }
 
-table td .btn {
+/*table td .btn {
   margin: 0;
-}
+}*/
 
 /*	D) Shortcodes
 -------------------------------------------
@@ -1345,9 +1348,9 @@ ul.cform li {
   margin-top: 10px;
 }
 
-ul.cform li .btn {
+/*ul.cform li .btn {
   margin-top: 0 !important;
-}
+}*/
 
 ul.cform li label {
   display: block;
