@@ -1,20 +1,25 @@
 #home-carousel.carousel
   .carousel-inner
     .item.active
-      %img{src: '/img/carousel/temp-1.png', alt: 'Temp #1', width: '980', height: '538'}
+      %img{src: '/img/carousel/blurry_white_truck_on_interstate.jpg', alt: '', width: '980', height: '450'}
       .carousel-caption
         %h4= lorem.sentence
         %p= lorem.sentences(4)
     .item
-      %img{src: '/img/slider/wow-slider/images/slide2.jpg', alt: '',  width: '980', height: '450'}
+      %img{src: '/img/carousel/truck_with_sunset.jpg', alt: '',  width: '980', height: '450'}
       .carousel-caption
         %h4= lorem.sentence
         %p= lorem.sentences(4)
     .item
-      %img{src: '/img/slider/wow-slider/images/slide3.jpg', alt: '',  width: '980', height: '450'}
+      %img{src: '/img/carousel/road_signs.jpg', alt: '',  width: '980', height: '450'}
       .carousel-caption
         %h4= lorem.sentence
         %p= lorem.sentences(2)
+    .item
+      %img{src: '/img/carousel/red_truck_driving.jpg', alt: '',  width: '980', height: '450'}
+      .carousel-caption
+        %h4= lorem.sentence
+        %p= lorem.sentences(3)
   %a{href: '#home-carousel', class: 'carousel-control left', data: {slide: 'prev'}} &lsaquo;
   %a{href: '#home-carousel', class: 'carousel-control right', data: {slide: 'next'}} &rsaquo;
 
@@ -51,7 +56,18 @@
               %li= lorem.words(4).capitalize
               %li= lorem.words(4).capitalize
       %p
-        %a{href: '#', class: 'btn btn-large btn-primary'} Learn more
+        %a{href: '#', class: 'btn btn-large btn-primary'} Learn more &rarr;
+      %hr
+      %ul.thumbnails
+        %li.span7
+          .thumbnail
+            %img{src: '/img/washington_dc.jpg', alt: '', width: '530', height: '360'}
+            %h3 Do you know your CSA scores?
+            %p
+              Shippers, competitors, insurance companies, lawyers &mdash; they do.
+              %a{href: '#'}
+                %strong
+                  JPTSC can help.
     .span5
       %ul.sidebar-comment
         %li
