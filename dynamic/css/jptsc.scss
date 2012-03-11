@@ -22,6 +22,12 @@ hr.img {
   background: url('../img/hr.png') repeat-x 0 0;
 }
 
+#logo {
+  background: transparent url('../img/jptsc-logo.png') no-repeat scroll center left;
+  width: 100px;
+  height: 65px;
+}
+
 #intro {
   margin-bottom: $baseLineHeight;
 
