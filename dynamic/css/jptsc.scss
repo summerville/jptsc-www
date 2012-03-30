@@ -69,3 +69,7 @@ ul.sidebar-comment li { padding-top: $baseLineHeight; }
 .btn-primary {
   @include buttonBackground($primaryButtonBackground, adjust-hue($primaryButtonBackground, 12));
 }
+
+.carousel-caption h2 {
+  color: $white;
+}
