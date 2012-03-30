@@ -27,18 +27,23 @@
   .space_top
   #wrap.clearfix
     %header#header.clearfix
-      #logo.grid_8
-        %a{href: '/'}
-      #phone
-        %ul
-          %li.theme_color Call us:
-          %li (205) 329-8182
-      #socialmedia
-        %ul
-          <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
-          <li><a href="https://twitter.com/#!/UnitedThemes" target="_blank"><img src="img/icons/twitter-icon.png" width="29" height="29" alt="Twitter"></a></li>
-          <li><a href="http://www.facebook.com/pages/United-Themes/192439650789254" target="_blank"><img src="img/icons/facebook-icon.png" width="29" height="29" alt="Facebook"></a></li>
-      .clear
+      .row
+        .span2
+          #logo
+            %a{href: '/'}
+        .span5
+          %h2#logo-caption
+            Keeping your fleet <span class="theme_color">safe</span>.
+
+        #phone
+          %ul
+            %li.theme_color Call us:
+            %li (205) 329-8182
+        #socialmedia
+          %ul
+            <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
+            <li><a href="https://twitter.com/#!/UnitedThemes" target="_blank"><img src="img/icons/twitter-icon.png" width="29" height="29" alt="Twitter"></a></li>
+            <li><a href="http://www.facebook.com/pages/United-Themes/192439650789254" target="_blank"><img src="img/icons/facebook-icon.png" width="29" height="29" alt="Facebook"></a></li>
 
       #nav.clearfix.top
         %ul.sf-menu.container
