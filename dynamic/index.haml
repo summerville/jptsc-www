@@ -58,7 +58,7 @@ META----------------------------------------------------------------------------
         mock DOT audits, customized driver and management training to vehicle maintenance programs, we can develop or
         improve your overall fleet safety and compliance programs.
       %p
-        %a{href: '#', class: 'btn btn-large btn-primary'} Learn more &rarr;
+        %a{href: '/services', class: 'btn btn-large btn-primary'} Learn more about our services &rarr;
       %hr
       %blockquote
         %p
@@ -97,15 +97,14 @@ META----------------------------------------------------------------------------
                 %a{href: 'http://www.ai.fmcsa.dot.gov/sms/', class: 'btn'} Check your CSA scores &rarr;
       .page-header
         %h3 News &amp; Events
-      %ul
-        %li
-          %strong
-            = lorem.date
-          = lorem.sentences(4)
-        %li
-          %strong
-            = lorem.date
-          = lorem.sentences(4)
+      %h5
+        <i class="icon-star-empty"></i>
+        #{lorem.date} &mdash; News title
+      %p= lorem.sentences(4)
+      %h5
+        <i class="icon-calendar"></i>
+        #{lorem.date} &mdash; Event title
+      %p= lorem.sentences(4)
 
 - content_for :javascript do
   :javascript
