@@ -91,6 +91,17 @@
                     JPTSC can help.
               %p
                 %a{href: 'http://www.ai.fmcsa.dot.gov/sms/', class: 'btn'} Check your CSA scores &rarr;
+      .page-header
+        %h3 News &amp; Events
+      %ul
+        %li
+          %strong
+            = lorem.date
+          = lorem.sentences(4)
+        %li
+          %strong
+            = lorem.date
+          = lorem.sentences(4)
 
 - content_for :javascript do
   :javascript
