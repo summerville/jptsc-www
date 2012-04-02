@@ -5245,6 +5245,12 @@ hr.img {
   width: 100px;
   height: 65px; }
 
+#logo-caption {
+  color: #aaa;
+  font-weight: normal;
+  height: 65px;
+  line-height: 65px; }
+
 #intro {
   margin-bottom: 20px; }
   #intro h1, #intro h2 {
@@ -5281,3 +5287,6 @@ ul.sidebar-comment li {
     background-color: #f5852d; }
   .btn-primary:active, .btn-primary.active {
     background-color: #e46a0b \9; }
+
+.carousel-caption h2 {
+  color: white; }
