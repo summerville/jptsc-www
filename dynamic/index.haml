@@ -56,36 +56,41 @@
       %p
         %a{href: '#', class: 'btn btn-large btn-primary'} Learn more &rarr;
       %hr
-      .offset1
-        %ul.thumbnails
-          %li.span5
-            .thumbnail
-              %img{src: '/img/csa_logo.png', alt: '', width: '380', height: '160'}
-              .caption
-                %h4 Do you know your CSA scores?
-                %p
-                  Shippers, competitors, insurance companies, lawyers &mdash; they do.
-                  %a{href: '#'}
-                    %strong
-                      JPTSC can help.
-                %p
-                  %a{href: 'http://www.ai.fmcsa.dot.gov/sms/', class: 'btn'} Check your CSA scores &rarr;
+      %blockquote
+        %p
+          JPTSC provides consistent, sensible, and easy to follow solutions to complex issues
+          involving federal, state, and local regulations. The consulting services of JPTSC are
+          a superb combination of common-sense, technical expertise, and approachablilty that
+          far outweighs its competition.
+        %small
+          <strong>Wayne Anderson</strong>, Liberty Tire Recycling
+      %blockquote
+        %p
+          If you have any concerns or issues about your safety department being DOT compliant,
+          you owe it to yourself to contact JP Transportation Safety Consulting. It has been a
+          pleasure working with a consulting firm that actually knows and understands the
+          trucking industry. With JPTSC’s knowledgeable staff and dedication to the success of
+          the ATA and motor carriers cross the nation, I would highly recommend their consulting
+          services.
+        %small
+          <strong>Gene Vonderau</strong>, Alabama Trucking Association
+      %ul.pager
+        %li.previous
+          %a{href: '/testimonials', title: ''} More testimonials &rarr;
     .span5
-      %ul.sidebar-comment
-        %li
-          %blockquote
-            %p
-              JPTSC provides consistent, sensible, and easy to follow solutions to complex issues
-              involving federal, state, and local regulations. The consulting services of JPTSC are
-              a superb combination of common-sense, technical expertise, and approachablilty that
-              far outweighs its competition.
-            %small Wayne Anderson, Pittsburgh, PA
-        %li
-          %blockquote
-            %p= lorem.sentences(3)
-            %small= lorem.name
-
-
+      %ul.thumbnails
+        %li.span5
+          .thumbnail
+            %img{src: '/img/csa_logo.png', alt: '', width: '380', height: '160'}
+            .caption
+              %h4 Do you know your CSA scores?
+              %p
+                Shippers, competitors, insurance companies, lawyers &mdash; they do.
+                %a{href: '#'}
+                  %strong
+                    JPTSC can help.
+              %p
+                %a{href: 'http://www.ai.fmcsa.dot.gov/sms/', class: 'btn'} Check your CSA scores &rarr;
 
 - content_for :javascript do
   :javascript
