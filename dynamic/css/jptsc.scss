@@ -3,6 +3,8 @@ $linkColorHover: #4F5356;
 $baseFontSize: 14px;
 $baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif ! default;
 $baseLineHeight: 20px;
+$iconSpritePath: url('../img/glyphicons-halflings.png');
+$iconWhiteSpritePath: url('../img/glyphicons-halflings-white.png');
 
 @import "bootstrap";
 @import "biscayne/biscayne";
@@ -67,7 +69,7 @@ ul.sidebar-comment li { padding-top: $baseLineHeight; }
 
 /* Tweak the btn-primary gradient */
 .btn-primary {
-  @include buttonBackground($primaryButtonBackground, adjust-hue($primaryButtonBackground, 12));
+  @include buttonBackground($btnPrimaryBackground, adjust-hue($btnPrimaryBackground, 12));
 }
 
 .carousel-caption h2 {
