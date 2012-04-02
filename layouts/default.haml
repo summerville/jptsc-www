@@ -41,21 +41,28 @@
             %li (205) 329-8182
         #socialmedia
           %ul
-            <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
-            <li><a href="https://twitter.com/#!/UnitedThemes" target="_blank"><img src="img/icons/twitter-icon.png" width="29" height="29" alt="Twitter"></a></li>
-            <li><a href="http://www.facebook.com/pages/United-Themes/192439650789254" target="_blank"><img src="img/icons/facebook-icon.png" width="29" height="29" alt="Facebook"></a></li>
+            <li><a href="https://plus.google.com/u/0/102370404281555515793/posts" target="_blank"><img src="/img/icons/google-plus.png" width="29" height="29" alt="Google"></a></li>
+            <li><a href="https://twitter.com/#!/UnitedThemes" target="_blank"><img src="/img/icons/twitter-icon.png" width="29" height="29" alt="Twitter"></a></li>
+            <li><a href="http://www.facebook.com/pages/United-Themes/192439650789254" target="_blank"><img src="/img/icons/facebook-icon.png" width="29" height="29" alt="Facebook"></a></li>
 
       #nav.clearfix.top
+        - active_nav_link = nil if !defined?(active_nav_link)
         %ul.sf-menu.container
-          <li class="current"><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Staff</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Mission Statement</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Links</a></li>
+          %li{ class: "#{active_nav_link == :home ? 'current' : '' }" }
+            %a{ href: '/', title: 'JPSTC website homepage' } Home
+          %li{ class: "#{active_nav_link == :about ? 'current' : '' }" }
+            %a{ href: '/about', title: 'About JPTSC' } About Us
+          %li{ class: "#{active_nav_link == :services ? 'current' : '' }" }
+            %a{ href: '/services', title: 'JPTSC Services' } Our Services
+          %li{ class: "#{active_nav_link == :testimonials ? 'current' : '' }" }
+            %a{ href: '/testimonials', title: 'What our clients say about us' } Testimonials
+          %li{ class: "#{active_nav_link == :partners ? 'current' : '' }" }
+            %a{ href: '/partners', title: 'JPTSC Partners' } Partners
+          %li{ class: "#{active_nav_link == :contact ? 'current' : '' }" }
+            %a{ href: '/contact', title: 'Contact JPTSC' } Contact Us
 
-    = yield
+    %section#content
+      = yield
 
     %footer#footer
       .container

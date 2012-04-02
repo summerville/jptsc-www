@@ -1,0 +1,18 @@
+- active_link = nil if !defined?(active_link)
+
+.well{ style: 'padding: 12px 0;' }
+  %ul.nav.nav-list
+    %li{ class: "#{active_link == :main ? 'active' : '' }" }
+      %a{ href: '/services'} JPTSC Services Overview
+    %li.divider
+    %li.nav-header Service Details
+    %li{ class: "#{active_link == :mock_dot_review ? 'active' : '' }" }
+      %a{ href: '/services/mock-dot-compliance-reviews'} Mock DOT Compliance Reviews
+    %li{ class: "#{active_link == :driver_training ? 'active' : '' }" }
+      %a{ href: '/services/driver-and-management-training'} Driver &amp; Management Training
+    %li{ class: "#{active_link == :maintenance_programs ? 'active' : '' }" }
+      %a{ href: '/services/maintenance-programs'} Maintenance Programs
+    %li{ class: "#{active_link == :drug_training ? 'active' : '' }" }
+      %a{ href: '/services/drug-and-alcohol-training'} Drug &amp; Alcohol Training
+    %li{ class: "#{active_link == :hazardous_materials_training ? 'active' : '' }" }
+      %a{ href: '/services/hazardous-materials-compliance-training'} Hazardous Materials Compliance
