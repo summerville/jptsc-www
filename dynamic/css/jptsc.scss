@@ -75,3 +75,9 @@ ul.sidebar-comment li { padding-top: $baseLineHeight; }
 .carousel-caption h2 {
   color: $white;
 }
+
+blockquote.big-quote {
+  background: transparent url('../img/big-quote.png') no-repeat left top;
+  border-left: none;
+  padding-left: 90px;
+}
