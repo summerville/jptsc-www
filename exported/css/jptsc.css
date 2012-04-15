@@ -5459,8 +5459,8 @@ hr.img {
 
 #logo {
   background: transparent url("../img/jptsc-logo.png") no-repeat scroll center left;
-  width: 100px;
-  height: 65px; }
+  width: 200px;
+  height: 70px; }
 
 #logo-caption {
   color: #aaa;
@@ -5507,3 +5507,8 @@ ul.sidebar-comment li {
 
 .carousel-caption h2 {
   color: white; }
+
+blockquote.big-quote {
+  background: transparent url("../img/big-quote.png") no-repeat left top;
+  border-left: none;
+  padding-left: 90px; }
