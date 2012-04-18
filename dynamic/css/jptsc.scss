@@ -9,12 +9,10 @@ $iconWhiteSpritePath: url('../img/glyphicons-halflings-white.png');
 @import "bootstrap";
 @import "biscayne/biscayne";
 
-body {
-  .fl { float: left; }
-  .fr { float: right; }
-  .ac { text-align: center; }
-  .ar { text-align: right; }
-}
+.fl { float: left; }
+.fr { float: right; }
+.ac { text-align: center; }
+.ar { text-align: right; }
 
 hr.img {
   clear: both;
