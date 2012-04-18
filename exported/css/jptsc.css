@@ -5441,13 +5441,16 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
 .fancy_input {
   margin: 20px; }
 
-body .fl {
+.fl {
   float: left; }
-body .fr {
+
+.fr {
   float: right; }
-body .ac {
+
+.ac {
   text-align: center; }
-body .ar {
+
+.ar {
   text-align: right; }
 
 hr.img {
