@@ -5460,6 +5460,9 @@ hr.img {
   margin-bottom: 30px;
   background: url("../img/hr.png") repeat-x 0 0; }
 
+#wrap {
+  border-top: 10px solid #f55d2d; }
+
 #logo {
   background: transparent url("../img/jptsc-logo.png") no-repeat scroll center left;
   width: 200px;
@@ -5511,7 +5514,10 @@ ul.sidebar-comment li {
 .carousel-caption h2 {
   color: white; }
 
-blockquote.big-quote {
+blockquote p {
+  margin-bottom: 10px; }
+
+.big-quote {
   background: transparent url("../img/big-quote.png") no-repeat left top;
   border-left: none;
   padding-left: 90px; }
