@@ -78,9 +78,10 @@ META----------------------------------------------------------------------------
           services.
         %small
           <strong>Gene Vonderau</strong>, Alabama Trucking Association
-      %ul.pager
-        %li.previous
-          %a{href: '/testimonials', title: ''} More testimonials &rarr;
+      .offset1
+        %ul.pager
+          %li.previous
+            %a{href: '/testimonials', title: ''} More testimonials &rarr;
     .span5
       %ul.thumbnails
         %li.span5
@@ -95,16 +96,17 @@ META----------------------------------------------------------------------------
                     JPTSC can help.
               %p
                 %a{href: 'http://www.ai.fmcsa.dot.gov/sms/', class: 'btn'} Check your CSA scores &rarr;
-      .page-header
-        %h3 News &amp; Events
-      %h5
-        <i class="icon-star-empty"></i>
-        #{lorem.date} &mdash; News title
-      %p= lorem.sentences(4)
-      %h5
-        <i class="icon-calendar"></i>
-        #{lorem.date} &mdash; Event title
-      %p= lorem.sentences(4)
+      -#
+        .page-header
+          %h3 News &amp; Events
+        %h5
+          <i class="icon-star-empty"></i>
+          #{lorem.date} &mdash; News title
+        %p= lorem.sentences(4)
+        %h5
+          <i class="icon-calendar"></i>
+          #{lorem.date} &mdash; Event title
+        %p= lorem.sentences(4)
 
 - content_for :javascript do
   :javascript
