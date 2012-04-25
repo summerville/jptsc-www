@@ -1,0 +1,13 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+p {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+ul {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+li {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+p.contact {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ad0000; }
+h2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #0066cc;}
+h3 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #0066cc;}
+h4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #000000;}
+a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: #660000; }
+a:active { font-family: Verdana, Arial, Helvetica, sans-serif; color: #FF0000; }
+a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; color: #ad4a18; }
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: #660000; }
+
